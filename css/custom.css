@@ -1,0 +1,43 @@
+/* start global Styles*/
+body
+{
+	padding-top: 54px;
+}
+@media (min-width: 992px){
+	body{
+		padding-top: 56px;
+	}
+}
+.carousel-item{
+	height: 65vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.portfolio-item
+{
+	margin-bottom: 30px;
+}
+/* end global Styles*/
+
+/*Navigation background color*/
+.bg-dark
+{
+	background-color: purple !important;
+}
+/*call to action button hover state*/
+.btn-secondary:hover {
+    color: purple;
+    background-color: purple;
+    border-color: purple;
+}
+/*Button hover color*/
+.btn-primary:hover {
+    color: #fff;
+    background-color: purple;
+    border-color: purple;
+}
